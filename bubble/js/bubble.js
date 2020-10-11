@@ -1,4 +1,4 @@
-/* Copyright (C) 2019 一为忆 bubble.js, http://www.iowen.cn */
+
 (function() {
 	var canvas, ctx, width, height, bubbles, animateHeader = true;
 	initHeader();
