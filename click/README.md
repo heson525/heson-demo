@@ -1,16 +1,16 @@
-# canvas动画效果
-上升的气泡动画特效
+# 鼠标点击效果
+
 <br/>
 ## 引用方法
-### 复制`bubble.js`内容到自己的js文件中
+### 复制`click.js`内容到自己的js文件中
 
-### 需要泡泡的内容上插入代码
+### 加到head里面的`<body>`后
 ```html
-<canvas id="header_canvas"style="position:absolute;bottom:0"></canvas>
+<div id="clickCanvas" style=" position:fixed;left:0;top:0;z-index:999999999;pointer-events:none;"></div>
 ```
 
 ### 演示地址
-<a href="https://www.heson10.com/demo/bubble/" target="_blank">气泡上升代码 | 黑石博客</a>
+<a href="https://www.heson10.com/demo/click/" target="_blank">鼠标点击代码 | 黑石博客</a>
 <br/>
 
 
